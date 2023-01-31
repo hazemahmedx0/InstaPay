@@ -1,0 +1,204 @@
+@media screen and (max-width: 1170px) {
+  .H1-text {
+    font-size: 3.75rem;
+    font-weight: 500;
+    line-height: 1.05;
+    letter-spacing: -0.07rem;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .H1-text {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.07rem;
+  }
+
+  .H3-text {
+    font-size: 2.5rem;
+  }
+
+  .hero-iamge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-iamge img {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .H3-text {
+    font-size: 2rem;
+  }
+
+  .hero-iamge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-iamge img {
+    max-width: 90%;
+  }
+
+  .hero-text .download .apple-download {
+    margin-right: 0.5rem;
+  }
+  .partners {
+    padding-bottom: 4rem;
+  }
+  .about {
+    padding: 4rem 0;
+  }
+  .about2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    row-gap: 3rem;
+  }
+  .about-image img {
+    height: 100%;
+  }
+  .marg-7-5-top {
+    margin-top: 4rem !important;
+  }
+  .marg-7-25-bottom {
+    margin-bottom: 4rem !important;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .Features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 4;
+  }
+  .div2 {
+    grid-area: 3 / 1 / 3 / 3;
+  }
+  .div3 {
+    grid-area: 2 / 1 / 2 / 5;
+  }
+  .div4 {
+    grid-area: 1 / 4 / 1/ 5;
+  }
+  .div5 {
+    grid-area: 3 / 3 / 4 / 5;
+  }
+
+  .banks-25 {
+    bottom: -19%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .H1-text {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.05;
+    letter-spacing: -0.07rem;
+  }
+
+  .H3-text {
+    font-size: 1.4rem;
+  }
+  .grid--5-cols {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .about-head-text {
+    max-width: 300px;
+    grid-column: span 1;
+  }
+  .about-image {
+    grid-column: span 1;
+  }
+  .marg-7-25-top {
+    margin-top: 3rem !important;
+  }
+  menu ul,
+  menu label {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Grid-Container-1200 {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .hero-section {
+    padding-top: 1.25rem;
+    padding-bottom: 3rem;
+  }
+  .H1-text {
+    text-align: center;
+  }
+  .hero-text {
+    align-items: center;
+  }
+  .logos svg {
+    max-height: 40px;
+  }
+  .about-head-text {
+    text-align: center;
+  }
+
+  .Features-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+
+  .download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .div2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .div3 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .div4 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  .div5 {
+    grid-area: 5 / 1 / 6 / 2;
+  }
+
+  .ipalines {
+    transform: scale(2) translate(25%, 0);
+  }
+  .plus {
+    font-size: 16px;
+  }
+  .H4-text {
+  }
+
+  footer .logo {
+    display: none;
+  }
+
+  footer .footer-middle {
+    justify-content: flex-start;
+  }
+}
